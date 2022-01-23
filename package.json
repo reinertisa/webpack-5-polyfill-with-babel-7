@@ -1,0 +1,35 @@
+{
+  "name": "webpack-5-polyfill-with-babel-7",
+  "version": "1.0.0",
+  "description": "How to get polyfills with Babel 7 and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "cross-env NODE_ENV=production webpack",
+    "build-dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinertisa/webpack-5-polyfill-with-babel-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinertisa/webpack-5-polyfill-with-babel-7/issues"
+  },
+  "homepage": "https://github.com/reinertisa/webpack-5-polyfill-with-babel-7#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
